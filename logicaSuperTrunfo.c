@@ -135,8 +135,8 @@ int main() {
       break;
     case 2:
       printf("Comparação de cartas (Atributo: Área):\n");
-      printf("Carta 1 -  %c : %lu \n" ,estado1, area1);
-      printf("Carta 2 -  %c : %lu \n" ,estado2, area2);
+      printf("Carta 1 -  %c : %f \n" ,estado1, area1);
+      printf("Carta 2 -  %c : %f \n" ,estado2, area2);
       printf("Resultado:\n");
        if (area1 > area2) {
           printf("Carta 1 Venceu!\n");
@@ -148,8 +148,8 @@ int main() {
       break;
     case 3:
       printf("Comparação de cartas (Atributo: PIB):\n");
-      printf("Carta 1 -  %c : %lu \n" ,estado1, pib1);
-      printf("Carta 2 -  %c : %lu \n" ,estado2, pib2);
+      printf("Carta 1 -  %c : %f \n" ,estado1, pib1);
+      printf("Carta 2 -  %c : %f \n" ,estado2, pib2);
       printf("Resultado:\n");
        if (pib1 > pib2) {
           printf("Carta 1 Venceu!\n");
@@ -161,8 +161,8 @@ int main() {
       break;
     case 4:
       printf("Comparação de cartas (Atributo: Número de pontos turísticos):\n");
-      printf("Carta 1 -  %c : %lu \n" ,estado1, pontosTuristicos1);
-      printf("Carta 2 -  %c : %lu \n" ,estado2, pontosTuristicos2);
+      printf("Carta 1 -  %c : %i \n" ,estado1, pontosTuristicos1);
+      printf("Carta 2 -  %c : %i \n" ,estado2, pontosTuristicos2);
       printf("Resultado:\n");
        if (pontosTuristicos1 > pontosTuristicos2) {
           printf("Carta 1 Venceu!\n");
@@ -174,8 +174,8 @@ int main() {
       break;
     case 5:
       printf("Comparação de cartas (Atributo: Densidade demográfica):\n");
-      printf("Carta 1 -  %c : %lu \n" ,estado1, densidadePopulacional1);
-      printf("Carta 2 -  %c : %lu \n" ,estado2, densidadePopulacional2);
+      printf("Carta 1 -  %c : %.2f \n" ,estado1, densidadePopulacional1);
+      printf("Carta 2 -  %c : %.2f \n" ,estado2, densidadePopulacional2);
       printf("Resultado:\n");
        if (densidadePopulacional1 > densidadePopulacional2) {
           printf("Carta 2 Venceu!\n");
